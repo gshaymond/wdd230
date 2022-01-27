@@ -5,10 +5,10 @@ Fonts are separated by a | */
 
 :root {
   /* change the values below to your colors from your palette */
-  --primary-color: #396E94   ;
-  --secondary-color: #E7C24F ;
-  --accent1-color: #A42212;
-  --accent2-color: white;
+  --primary-color: #a6d49f;
+  --secondary-color: #9cb380;
+  --accent1-color: #522a27;
+  --accent2-color: #c73e1d;
 
   /* change the values below to your chosen font(s) */
   --heading-font: Acme;
