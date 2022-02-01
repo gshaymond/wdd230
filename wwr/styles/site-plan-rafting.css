@@ -97,7 +97,7 @@ p.colored {
   color: var(--paragraph-color-on-color);
 }
 nav {
-  background-color: var(--nav-background-color);
+  background-color: var(--accent2-color);
   line-height: 3em;
   text-align: center;
   font-size: 1.2em;
