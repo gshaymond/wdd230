@@ -38,11 +38,17 @@ body {
 }
 img {
   display: block;
+  border: 10px solid #D4AC0D;
+  border-radius: 30%;
+  box-sizing: border-box;
   margin: 0 auto;
   max-width: 300px;
 }
 h1, h2, h3, h4, h5, h6 {
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-family: papyrus;
+  font-stretch: 10px;
+  font-size: 14;
+
   color: var(--headline-color-on-white);
 }
 h2 {
@@ -54,8 +60,9 @@ hr {
   background: var(--accent1-color);
 }
 header {
-  padding: 1em;
+  padding: 5em;
   text-align: center;
+  font-family: fantasy;
   color: var(--paragraph-color-on-color);
   background-color: var(--paragraph-background-color);
 }
@@ -63,7 +70,7 @@ header > h1, header > h2 {
   color: var(--headline-color-on-color);
 }
 p {
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   color: var(--paragraph-color);
   padding: 1em;
 }
