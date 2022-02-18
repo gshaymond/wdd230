@@ -273,8 +273,7 @@ nav a:hover {
 main section {
   box-sizing: border-box;
   text-align: center;
-  margin-bottom: 160px;
-  margin-top: 160;
+  
 }
 .card-img:hover {
   opacity: .6;
