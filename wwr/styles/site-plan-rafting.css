@@ -250,6 +250,7 @@ nav a:hover {
   grid-column: 1/11;
   grid-row: 4/9;
   background-color: #9cb380;
+  height: 700px;
 }
 .mountains{
   width: 100%;
