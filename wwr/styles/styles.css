@@ -167,6 +167,8 @@ nav a:hover {
   justify-self: center;
   align-self: center;
 }
+
+
 #hero {
   display: grid;
   grid-template-columns: 1fr 3fr 1fr;
@@ -283,11 +285,42 @@ main section {
 }
 
 
+
 .rivers {
   max-width: 300px;
 }
 #river-wide {
   width: 100%;
+}
+.idaho-river {
+  grid-column: 1/5;
+  grid-row: 3/4;
+}
+.utah-river {
+  grid-column: 1/5;
+  grid-row: 8/9;
+}
+.arizona-river {
+  grid-column: 1/5;
+  grid-row: 11/12;
+}
+#back-color-idaho {
+  grid-column: 2/10;
+  grid-row: 2/5;
+  background-color: #9cb380;
+  height: 235px;
+}
+#back-color-utah {
+  grid-column: 2/10;
+  grid-row: 6/9;
+  background-color: #9cb380;
+  height: 235px;
+}
+#back-color-arizona {
+  grid-column: 2/10;
+  grid-row: 10/13;
+  background-color: #9cb380;
+  height: 235px;
 }
 
 
