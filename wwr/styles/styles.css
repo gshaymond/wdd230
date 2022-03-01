@@ -46,6 +46,7 @@ main {
   margin: 0 auto;
   max-width: 300px;
 }
+
 h1, h2, h3, h4, h5, h6 {
   font-family: papyrus;
   font-stretch: 10px;
@@ -280,6 +281,16 @@ main section {
   opacity: .6;
   transform: scale(1.1);
 }
+
+
+.rivers {
+  max-width: 300px;
+}
+#river-wide {
+  width: 100%;
+}
+
+
 @media screen and (max-width: 900px) {
   #hero, .home-grid {
       display: block;
