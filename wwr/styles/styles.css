@@ -344,6 +344,21 @@ main section {
   grid-row: 10/13;
   margin-left: 260px;
 }
+#river-location {
+  margin-left: 260px;
+  font: bold;
+  z-index: 4;
+  color: black;
+}
+.info-button {
+  background-color: #6f7364;
+  text-align: center;
+  margin-left: 150px;
+  margin-right: 150px;
+}
+.info {
+  color: white;
+}
 
 
 @media screen and (max-width: 900px) {
