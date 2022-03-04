@@ -291,6 +291,7 @@ main section {
 }
 #river-wide {
   width: 100%;
+  margin-bottom: 40px;
 }
 .idaho-river {
   grid-column: 1/5;
@@ -298,7 +299,7 @@ main section {
 }
 .utah-river {
   grid-column: 1/5;
-  grid-row: 8/9;
+  grid-row: 7/8;
 }
 .arizona-river {
   grid-column: 1/5;
@@ -308,19 +309,40 @@ main section {
   grid-column: 2/10;
   grid-row: 2/5;
   background-color: #9cb380;
-  height: 235px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  z-index: -1;
 }
 #back-color-utah {
   grid-column: 2/10;
   grid-row: 6/9;
   background-color: #9cb380;
-  height: 235px;
+  margin-top: 30px;
+  margin-bottom: 20px;
+  z-index: -1;
 }
 #back-color-arizona {
   grid-column: 2/10;
   grid-row: 10/13;
   background-color: #9cb380;
-  height: 235px;
+  margin-top: 30px;
+  margin-bottom: 20px;
+  z-index: -1;
+}
+#idaho-script {
+  grid-column: 5/10;
+  grid-row: 2/5;
+  margin-left: 260px;
+}
+#utah-script {
+  grid-column: 5/10;
+  grid-row: 6/9;
+  margin-left: 260px;
+}
+#arizona-script {
+  grid-column: 5/10;
+  grid-row: 10/13;
+  margin-left: 260px;
 }
 
 
