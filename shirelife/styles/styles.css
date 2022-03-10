@@ -1,10 +1,10 @@
 #hero-img {
-    width: 100%;
+    max-width: 100%;
+    z-index: -3;
 }
 
 #hero {
-    width: 100px;
-    margin-top: -100px;
+    max-width: 100%;
 }
 
 img {
@@ -19,6 +19,22 @@ img {
 
 header {
     display: grid;
-    grid-template-columns: 200px auto;
+    grid-template-columns: auto 100px auto;
     text-align: center;
+    z-index: 1;
 }
+
+nav {
+    background-color: var(--accent2-color);
+    line-height: 3em;
+    text-align: center;
+    font-size: 1.2em;
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+    display: flex;
+    padding:1em;
+    min-width: 120px;
+    text-decoration: none;
+    padding: 10px;
+  }
