@@ -19,7 +19,7 @@ header a {
     max-width: 100%;
     height: 170px;
     top: 0;
-    right: 460px;
+    right: 660px;
     position: absolute;
 }
 header {
@@ -57,8 +57,11 @@ nav a {
     display: grid;
     grid-template-columns: 20px 1fr 2fr 1fr 20px;
 }
-div h1 {
-    order: 0;
+.active-info p {
+    text-align: right;
+}
+.active-info h1 {
+    text-align: right;
 }
 .active-info {
     grid-column: 2/6;
@@ -66,20 +69,42 @@ div h1 {
     background-color: #93843e;
     display: flex;
 }
+.pack-info p {
+    text-align: left;
+}
 .pack-info {
     grid-column: 1/5;
     grid-row: 6/8;
     background-color: #93843e;
+    height: 400px;
     display: flex;
+    margin-bottom: 20px;
 }
 #picnic-img {
-    width: 100px;
+    width: 300px;
     grid-column: 1/3;
     grid-row: 1/3;
     z-index: 1;
+    margin-top: 20px;
 }
 #bagend-img {
-    width: 30%;
+    width: 400px;
     grid-column: 4/6;
     grid-row: 5/7;
+    z-index: 1;
+    margin-top: 20px;
+    position: relative;
+    right: 0;
+    bottom: -100px;
+}
+
+/*footer*/
+footer {
+    background-color: #237770;
+    display: flex;
+    height: 100px;
+    text-align: center;
+    margin-top: 20px;
+    justify-content: space-around;
+    align-items: center;
 }
