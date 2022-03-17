@@ -1,33 +1,36 @@
-.logo {
-    max-width: 150%;
+header a {
+    margin: 0 auto;
 }
 
 #hero-img {
     max-width: 100%;
     z-index: -3;
+    margin-top: -120px;
 }
 
 #hero {
     max-width: 100%;
 }
 
-img {
-    max-width: 30%;
-}
 
-#home-grid {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-    margin-top: 10px;
-}
 
+/*header*/
+.logo {
+    max-width: 100%;
+    height: 170px;
+    top: 0;
+    right: 460px;
+    position: absolute;
+}
 header {
     display: grid;
     grid-template-columns: auto 100px auto;
     text-align: center;
     z-index: 1;
+    background-color: #663236;
+    z-index: 2;
+    position: relative;
 }
-
 nav {
     background-color: var(--accent2-color);
     line-height: 3em;
@@ -41,4 +44,42 @@ nav {
     min-width: 120px;
     text-decoration: none;
     padding: 10px;
+    height: 100px;
   }
+nav a {
+      background-color: #80863e;
+      margin: 0 auto;
+}
+
+  /*home page*/
+.home-grid {
+    margin-top: 10px;
+    display: grid;
+    grid-template-columns: 20px 1fr 2fr 1fr 20px;
+}
+div h1 {
+    order: 0;
+}
+.active-info {
+    grid-column: 2/6;
+    grid-row: 2/4;
+    background-color: #93843e;
+    display: flex;
+}
+.pack-info {
+    grid-column: 1/5;
+    grid-row: 6/8;
+    background-color: #93843e;
+    display: flex;
+}
+#picnic-img {
+    width: 100px;
+    grid-column: 1/3;
+    grid-row: 1/3;
+    z-index: 1;
+}
+#bagend-img {
+    width: 30%;
+    grid-column: 4/6;
+    grid-row: 5/7;
+}
