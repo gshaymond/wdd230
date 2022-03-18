@@ -2,6 +2,7 @@
 Any spaces in your font name should be replaced with a +. 
 Fonts are separated by a | */
 @import url('https://fonts.googleapis.com/css?family=IM+Fell+French+Canon+SC|Lato');
+@import url('https://gshaymond.github.io/wdd230/shirelife/styles/fonts');
 
 :root {
   /* change the values below to your colors from your palette */
@@ -59,14 +60,14 @@ header {
   text-align: center;
   color: var(--paragraph-color-on-color);
   background-color: var(--paragraph-background-color);
-  font-family: Hobbiton Brushhand;
+  font-family: 'Hobbiton Brushhand';
 }
 header > h1, header > h2 {
   color: var(--headline-color-on-color);
 }
 
 p {
-  font-family: Bilbo Hand;
+  font-family: 'Bilbo Hand';
   color: var(--paragraph-color);
   padding: 1em;
 }
