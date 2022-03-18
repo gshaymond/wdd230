@@ -59,15 +59,18 @@ nav a {
 }
 .active-info p {
     text-align: right;
+    display: flex;
 }
 .active-info h1 {
-    text-align: right;
+    margin-left: 300px;
+    margin-right: -10px;
 }
 .active-info {
     grid-column: 2/6;
     grid-row: 2/4;
     background-color: #93843e;
     display: flex;
+    height: 300px;
 }
 .pack-info p {
     text-align: left;
@@ -86,6 +89,9 @@ nav a {
     grid-row: 1/3;
     z-index: 1;
     margin-top: 20px;
+    position: relative;
+    left: 0;
+    bottom: -70px;
 }
 #bagend-img {
     width: 400px;
