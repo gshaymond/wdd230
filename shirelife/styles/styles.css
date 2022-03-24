@@ -1,16 +1,12 @@
-header a {
-    margin: 0 auto;
-}
-
+/*hero imgs*/
 #hero-img {
     max-width: 100%;
     z-index: -3;
     margin-top: -120px;
 }
-
-#hero {
+/* #hero {
     max-width: 100%;
-}
+} */
 h1 {
     font-family: Papyrus;
 }
@@ -20,13 +16,105 @@ p {
 }
 
 
+* {
+    box-sizing: border-box;
+  }
+  
+  /* Position the image container (needed to position the left and right arrows) */
+  .container {
+    position: relative;
+  }
+  
+  /* Hide the images by default */
+  .mySlides {
+    display: none;
+  }
+  
+  /* Add a pointer when hovering over the thumbnail images */
+  .cursor {
+    cursor: pointer;
+  }
+  
+  /* Next & previous buttons */
+  .prev,
+  .next {
+    cursor: pointer;
+    position: absolute;
+    top: 40%;
+    width: auto;
+    padding: 16px;
+    margin-top: -50px;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+    -webkit-user-select: none;
+  }
+  
+  /* Position the "next button" to the right */
+  .next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+  
+  /* On hover, add a black background color with a little bit see-through */
+  .prev:hover,
+  .next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+  }
+  
+  /* Number text (1/3 etc) */
+  .numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+  }
+  
+  /* Container for image text */
+  .caption-container {
+    text-align: center;
+    background-color: #222;
+    padding: 2px 16px;
+    color: white;
+  }
+  
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Six columns side by side */
+  .column {
+    float: left;
+    width: 16.66%;
+  }
+  
+  /* Add a transparency effect for thumnbail images */
+  .demo {
+    opacity: 0.6;
+  }
+  
+  .active,
+  .demo:hover {
+    opacity: 1;
+  }
+
+
+
 
 /*header*/
+header a {
+    margin: 0 auto;
+}
 .logo {
     max-width: 100%;
     height: 170px;
     top: 0;
-    right: 45%;
+    right: 47.5%;
     position: absolute;
 }
 header {
@@ -47,12 +135,12 @@ nav {
     justify-content: space-around;
     list-style-type: none;
     display: flex;
-    padding:1em;
     min-width: 120px;
     text-decoration: none;
     padding: 10px;
     height: 100px;
     margin-top: 20px;
+    margin-bottom: 20px;
     font-family: Papyrus;
   }
 nav a {
@@ -68,7 +156,7 @@ nav a:hover {
     color: #663236;
 }
 
-  /*home page*/
+/*home page*/
 .home-grid {
     margin-top: 10px;
     display: grid;
@@ -135,6 +223,46 @@ nav a:hover {
     right: 0;
     bottom: -100px;
     box-shadow: 5px 5px 10px #161616;
+}
+
+/*activity page*/
+.activity-grid{
+    display: grid;
+    grid-template-columns: 15px 1fr 2fr 10px 2fr 1fr 15px;
+    margin-top: 30px;
+}
+#activities-list{
+    grid-column: 2/4;
+    background-color: #6f7364;
+}
+#picnic_img{
+    width: 200px;
+    grid-column: 1/3;
+    grid-row: 1/2;
+}
+#sword_img{
+    width: 200px;
+    grid-column: 1/3;
+    grid-row: 3/4;
+}
+#events-list{
+    grid-column: 5/7;
+    background-color: #6f7364;
+}
+#firework_img{
+    width: 200px;
+    grid-column: 6/8;
+    grid-row: 1/2;
+}
+#partytree_img{
+    width: 200px;
+    grid-column: 6/8;
+    grid-row: 3/4;
+}
+li {
+    font-family: Papyrus;
+    font-size: larger;
+    font-weight: bold;
 }
 
 /*footer*/
