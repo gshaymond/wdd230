@@ -327,16 +327,16 @@ nav a:hover {
     box-shadow: 5px 5px 10px #161616;
     border-radius: 2%;
 }
-li {
+#activities-list li {
     font-family: Papyrus;
     font-size: x-large;
     font-weight: bolder;
 }
-/* #events-list li {
-    margin-left: 20px;
-    margin-right: 300px;
-    display: flex;
-} */
+#events-list li {
+    font-family: Papyrus;
+    font-size: x-large;
+    font-weight: bolder;
+}
 #activities-list .left_float {
     float: left;
     margin-left: 20px;
@@ -355,6 +355,102 @@ li {
     float: right;
     margin-right: 20px;
     margin-left: 300px;
+}
+
+/*Packages Page*/
+.packages-grid {
+    display: grid;
+    grid-template-columns: 20px 1fr 15px 1fr 20px;
+}
+#package-list {
+    grid-column: 2/3;
+    grid-row: 1/4;
+    background-color: #6e745e;
+    margin-top: 100px;
+}
+#package-list li {
+    font-family: Papyrus;
+    font-weight: bolder;
+    font-size: x-large;
+    margin-top: ;
+}
+#package-list .left_float{
+    float: left;
+    margin-left: 20px;
+}
+#package-list .right_float {
+    float: right;
+    margin-left: 300px;
+    margin-right: 20px;
+}
+#package-title {
+    background-color: #663236;
+    color: #93843e;
+    text-align: center;
+    font-size: x-large;
+    margin-top: 10px;
+    width: 80%;
+    height: 70px;
+    position: relative;
+    top: -120px;
+    left: -20px;
+}
+#thewater-pic {
+    width: 400px;
+    position: relative;
+    top: 200px;
+    z-index: 1;
+}
+#hobbiton-pic {
+    width: 300px;
+    margin-left: -20px;
+    z-index: 1;
+}
+#housing-list {
+    grid-column: 4/5;
+    grid-row: 1/2;
+    background-color: #6e745e;
+    margin-top: 100px;
+}
+#housing-list li {
+    font-family: Papyrus;
+    font-weight: bolder;
+    font-size: x-large;
+}
+#housing-list .left_float {
+    float: left;
+    margin-left: 20px;
+    margin-right: 300px;
+}
+#housing-list .right_float {
+    float: right;
+    margin-right: 20px;
+    margin-left: 300px;
+}
+#housing-title {
+    background-color: #663236;
+    color: #93843e;
+    text-align: center;
+    font-size: x-large;
+    margin-top: 5px;
+    width: 80%;
+    height: 70px;
+    position: relative;
+    top: -120px;
+    right: -165px;
+}
+#hobbithole-pic {
+    width: 300px;
+    z-index: 1;
+}
+#bagend-pic {
+    width: 300px;
+    z-index: 1;
+}
+#booking-form {
+    grid-column: 4/5;
+    grid-row: 3/4;
+    background-color: #237770;
 }
 
 /*footer*/
