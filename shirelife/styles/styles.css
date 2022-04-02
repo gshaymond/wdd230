@@ -520,6 +520,9 @@ nav a:hover {
     height: 350px;
     border-left: solid #000;
 }
+#right-form li {
+    font-size: large;
+}
 #book-btn {
     width: 100%;
     height: 75px;
