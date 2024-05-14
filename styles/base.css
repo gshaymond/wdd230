@@ -33,7 +33,7 @@ nav ul {
 }
 
 body {
-    background-color: rgb(223, 223, 223);
+    background-color: rgb(174, 174, 174);
 }
 
 header {
@@ -55,21 +55,34 @@ header span {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     grid-row: 2;
     position: fixed;
-    top: 100px;
+    top: 80px;
     left: 35%;
 }
 
 nav {
-    background-color: rgb(182, 0, 0);
+    background-color: rgb(200, 0, 0);
+}
+
+nav a {
+    color: black;
+}
+
+nav ul:hover {
+    color: black;
 }
 
 nav a:hover {
-    color: black;
+    color: rgb(0, 0, 0);
     font-size: larger;
 }
 
 main {
-    background-color: white;
+    background-color: rgb(121, 121, 121);
+}
+
+li a {
+    text-decoration: none;
+    color: black;
 }
 
 footer {
@@ -80,7 +93,8 @@ footer {
 footer p {
     color: white;
     text-align: center;
-    margin-top: auto;
+    margin-top: 15px;
+    margin-bottom: 15px;
 }
 
 footer span {
