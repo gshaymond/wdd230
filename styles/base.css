@@ -50,14 +50,22 @@ header img {
     box-shadow: 2px 2px;
 }
 
-span {
+header span {
     font-size: xxx-large;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     grid-row: 2;
+    position: fixed;
+    top: 100px;
+    left: 35%;
 }
 
 nav {
     background-color: rgb(182, 0, 0);
+}
+
+nav a:hover {
+    color: black;
+    font-size: larger;
 }
 
 main {
