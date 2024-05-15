@@ -81,8 +81,11 @@ main {
 }
 
 li a {
-    text-decoration: none;
     color: black;
+}
+
+li a:hover {
+    font-size: larger;
 }
 
 footer {
