@@ -32,6 +32,29 @@ nav ul {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
+#menu {
+	font-size: 1.5rem;
+	border: 0;
+	background: none;
+	color: #000;
+ 	position: fixed;
+	top: 0;
+	right: 0;
+}
+
+#menu::before {
+	content: "☰";
+}
+
+#menu.open::before {
+	content: "❎";
+}
+
+/* when the button is clicked - the open class is toggled (added/removed) */
+.open a {
+	display: block;
+}
+
 body {
     background-color: rgb(174, 174, 174);
 }
@@ -54,17 +77,33 @@ header span {
     font-size: xxx-large;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     grid-row: 2;
-    position: fixed;
+    position: relative;
     top: 80px;
-    left: 35%;
+
+}
+
+#mode {
+    width: 25px;
+    height: 25px;
+    position: fixed;
+    top: 30px;
+    right: 10px;
+    border: none;
+    background-color: maroon;
 }
 
 nav {
+    display: none;
     background-color: rgb(200, 0, 0);
+}
+
+nav.open {
+    display: block;
 }
 
 nav a {
     color: black;
+    text-decoration: none;
 }
 
 nav ul:hover {

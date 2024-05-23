@@ -1,0 +1,10 @@
+button {
+    margin: 1rem;
+}
+
+section {
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: auto auto auto;
+}
+

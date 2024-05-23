@@ -1,4 +1,4 @@
-@media screen and (min-width: 760px){
+@media screen and (min-width: 600px){
     nav {
         display: flex;
         flex-direction: row;
@@ -8,5 +8,35 @@
         display: grid;
         grid-template-columns: 70% 30%;
         grid-template-rows: 20% 1fr;
+    }
+
+    #menu {
+        display: none;
+    }
+
+    .navigation {
+        display: flex;
+        flex-direction: row;
+        list-style: none;
+        background-color: #d60000;
+        color: #fff;
+    }
+    
+    .navigation a {
+        text-align: center;
+        text-decoration: none;
+        color: #000000;
+        padding: 3pt;
+    }
+    
+    .navigation ul {
+        text-align: center;
+        text-decoration: none;
+        color: #bb0000;
+    }
+    
+    .navigation a:hover {
+        background-color: #a20000;
+        color: #000000;
     }
 }
