@@ -33,8 +33,19 @@
         <ul><a href="">Form</a></ul>
     </nav>
     <main>
-        <h1>WDD 230</h1>
+        <picture>
+            <source srcset="images/hero-large.webp" media="(min-width: 960px)">
+            <source srcset="images/hero-small.webp" media="(max-width: 959px)">
+            <img src="images/hero-small.webp" alt="Favorite Temple" width="960" height="400">
+            <div class="overlay">San Diego Temple</div>
+        </picture>
+
+        <div id="class">
+            <h1>WDD 230</h1>
+        </div>
+        
         <section class="card">
+            
             <h2>Learning Activities</h2>
             <ul>
                 <li><a href="week01/chamber-site-plan.html">Chamber Site Plan</a></li>
@@ -52,8 +63,18 @@
         <section class="card">
             <h2>Informartion</h2>
             <p>Stuff about the weather</p>
+            <p>Page visits: <span id="visit-counter">0</span></p>
         </section>
     </main>
+
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3048.443878398963!2d-111.92049368460955!3d40.3467977793709!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x874d8cb3d41e87b3%3A0xe4ec9a3f7c7a0f12!2sSaratoga%20Springs%2C%20UT%2084045%2C%20USA!5e0!3m2!1sen!2sus!4v1620250466621!5m2!1sen!2sus" 
+        width="600" 
+        height="450" 
+        style="border:0;" 
+        allowfullscreen="" 
+        loading="lazy" 
+        referrerpolicy="no-referrer-when-downgrade"></iframe>
+
     <footer>
         <p>&copy <span>getDates</span>, Garrett Haymond, United States of America</p>
         <p id="lastModified"></p>
