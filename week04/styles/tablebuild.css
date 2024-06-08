@@ -1,0 +1,28 @@
+table, th, tr, td {
+    border-collapse: collapse;
+    border: 1px solid rgb(72, 72, 72);
+    font-family: sans-serif;
+}
+
+tr, td {
+    padding: 7.5px;
+}
+
+.checx {
+    text-align: center;
+}
+
+tr:nth-child(even) {
+    background-color: rgb(255, 248, 240);
+}
+
+.bg-black {
+    background-color: black;
+    color: rgb(255, 255, 255);
+    border-color: black;
+}
+
+.bg-gray {
+    background-color: rgb(72, 72, 72);
+    color: rgb(255, 255, 255);
+}
