@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms Page</title>
+
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/larger.css">
+    <link rel="stylesheet" href="styles/form.css">
+    
+    <link rel="icon" href="images/favicon.ico">
+
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="https://example.com/your-image.jpg">
+    <meta property="og:url" content="https://gshaymond.github.io/wdd230/">
+
+    <meta name="author" content="Garrett Haymond"/>
+    <meta name="description" content="Garrett Haymond, WDD 230 - Web Frontend Development, course assignment portal."/>
+
+</head>
+<body>
+    <header>
+        <img src="images/Me.jpg" alt="Garrett Haymond" width="150" height="150">
+        <span>Garrett Haymond</span>
+    </header>
+    <button id="menu"></button>
+    <nav class="navigation">
+        <ul><a href="index.html">Home</a></ul>
+        <ul><a href="chamber/index.html">Chamber</a></ul>
+        <ul><a href="week01/chamber-site-plan.html">Site Plan</a></ul>
+        <ul><a href="form.html">Form</a></ul>
+    </nav>
+    <main>
+        <form method="get" action="record.html">
+            <fieldset>
+                <label >Username * </label>
+                <input type="text" id="username" name="username" required>
+                <label >Password * </label>
+                <input type="password" id="password" name="password" pattern="[A-Za-z]{8}" required>
+                <label >Email * </label>
+                <input type="email" id="email" name="email" pattern="[a-zA-Z0-9._%+-]+@byui\.edu$" title="Please enter a valid email address" required>
+                <label >Page Rating</label>
+                <input type="range" id="rating" name="rating" min="0" max="5" value="0" step="1" list="rangevalues">
+                <datalist id="rangevalues">
+                    <option value="0">0</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                </datalist>
+                <button>Send Feedback</button>
+            </fieldset>
+        </form>
+    </main>
+    <footer>
+        <p>&copy <span>getDates</span>, Garrett Haymond, United States of America</p>
+        <p id="lastModified"></p>
+    </footer>
+    <script src="scripts/getDates.js"></script>
+    <script src="scripts/menu.js"></script>
+</body>
+</html>

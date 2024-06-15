@@ -79,9 +79,6 @@ header span {
     font-size: xxx-large;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     grid-row: 2;
-    position: relative;
-    top: 80px;
-
 }
 
 #mode {
@@ -108,17 +105,20 @@ nav a {
     text-decoration: none;
 }
 
-nav ul:hover {
-    color: black;
-}
-
-nav a:hover {
-    color: rgb(0, 0, 0);
+nav li:hover {
     font-size: larger;
 }
 
 main {
     background-color: rgb(121, 121, 121);
+    min-height: 50%;
+}
+
+#confirmed h2{
+    grid-row: 2;
+    text-align: center;
+    font-family: Impact;
+    font-weight: 75;
 }
 
 #class {

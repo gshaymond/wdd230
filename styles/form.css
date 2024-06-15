@@ -1,0 +1,41 @@
+fieldset {
+    background-color: rgb(220, 220, 220);
+    border-radius: 8px;
+    margin: 5px;
+    border: 2px;
+}
+
+fieldset label {
+    display: block;
+}
+
+input {
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+input:required {
+    border: solid 1px rgb(228, 0, 0);
+    border-left: solid 4px rgb(228, 0, 0);
+}
+
+input:required:valid {
+    border: solid 1px green;
+    border-left: solid 5px green;
+}
+
+#rangevalues {
+	display: flex;
+	margin-left: 3px;
+	width: 200px;
+}
+
+#rangevalues option {
+	flex: .106;
+    font-size: x-small;
+}
+
+form button {
+    margin-top: 10px;
+    border-radius: 5px;
+}

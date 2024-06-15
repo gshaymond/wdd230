@@ -33,8 +33,6 @@
     }
 
     .navigation {
-        display: flex;
-        flex-direction: row;
         list-style: none;
         background-color: #d60000;
         color: #fff;
@@ -48,14 +46,17 @@
     }
     
     .navigation ul {
+        display: flex;
+        flex-direction: row;
         text-align: center;
         text-decoration: none;
-        color: #bb0000;
+        color: #d60000;
     }
-    
-    .navigation a:hover {
-        background-color: #a20000;
-        color: #000000;
+
+    .navigation ul li {
+        margin-left: 125px;
+        margin-right: 125px;
+        text-decoration: none;
     }
 
     picture {

@@ -16,8 +16,6 @@ header span {
     font-size: xxx-large;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     grid-row: 2;
-    position: relative;
-    top: 60px;
 }
 nav ul {
     display: flex;
