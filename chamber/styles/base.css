@@ -18,8 +18,7 @@ header span {
     grid-row: 2;
 }
 nav ul {
-    display: flex;
-    flex-direction: column;
+    display: block;
     margin-left: auto;
     margin-right: auto;
     text-align: center;
@@ -47,6 +46,60 @@ main {
     display: grid;
     grid-template-columns: 2fr 1fr 1fr;
     grid-template-rows: 2fr 1fr 1fr;
+}
+
+legend {
+    font-family: Impact;
+    font-size: larger;
+}
+
+fieldset {
+    background-color: rgba(182, 216, 255, 0.815);
+    border-radius: 10px;
+    margin: 1rem;
+}
+
+fieldset label{
+    display: block;
+    margin-top: 15px;
+    font-family: Arial;
+    color: rgb(0, 54, 170);
+}
+
+input {
+    height: 30px;
+    width: 250px;
+    border-radius: 6px;
+    border-width: 1px;
+    margin-bottom: 3px;
+}
+
+input[type="radio"] {
+    height: 12px;
+    width: 12px;
+    margin-right: 10px;
+}
+
+#btn {
+    margin-top: 10px;
+    margin-left: 31px;
+    height: 50px;
+    width: 150px;
+    background-color: #aad6ff;
+    font-size: large;
+    font-family: Impact;
+    font-weight: 100;
+    box-shadow: 1px 1px 4px #999;
+}
+
+input:required {
+    border: solid 1px rgb(228, 0, 0);
+    border-left: solid 4px rgb(228, 0, 0);
+}
+
+input:required:valid {
+    border: solid 1px green;
+    border-left: solid 5px green;
 }
 
 #hero {

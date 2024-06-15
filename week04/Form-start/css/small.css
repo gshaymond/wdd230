@@ -93,7 +93,7 @@ main {
     appearance: none;
 }
 
-.wf1 input[type="radip"],
+.wf1 input[type="radio"],
 .wf1 input[type="checkbox"] {
     margin-right: 6px;
 }
