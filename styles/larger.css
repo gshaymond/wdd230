@@ -48,14 +48,16 @@
     .navigation ul {
         display: flex;
         flex-direction: row;
+        justify-content: space-between;
         text-align: center;
         text-decoration: none;
         color: #d60000;
+        width: 100%;
     }
 
     .navigation ul li {
-        margin-left: 125px;
-        margin-right: 125px;
+        margin-left: 5%;
+        margin-right: 5%;
         text-decoration: none;
     }
 
