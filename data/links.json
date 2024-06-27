@@ -1,0 +1,85 @@
+{
+    "weeks": [
+      {
+        "week": "Week 1",
+        "links": [
+          {
+            "url": "week01/holygrail.html",
+            "title": "Grail"
+          },
+          {
+            "url": "week01/chamber-site-plan.html",
+            "title": "Chamber Site Plan"
+          }
+        ]
+      },
+      {
+        "week": "Week 2",
+        "links": [
+          {
+            "url": "week02/design.html",
+            "title": "Principles of Design"
+          },
+          {
+            "url": "https://codepen.io/Garrett-Haymond/pen/abrOLWm",
+            "title": "Hamburger Menu"
+          },
+          {
+            "url": "week02/bom.html",
+            "title": "Favorite BOM"
+          }
+        ]
+      },
+      {
+        "week": "Week 3",
+        "links": [
+          {
+            "url": "week03/bom.html",
+            "title": "BOM Array"
+          },
+          {
+            "url": "https://codepen.io/Garrett-Haymond/pen/JjqNBVx?editors=0100",
+            "title": "Psuedo Code"
+          }
+        ]
+      },
+      {
+        "week": "Week 4",
+        "links": [
+          {
+            "url": "week04/images/combinations.PNG",
+            "title": "Exercise Screenshot"
+          },
+          {
+            "url": "week04/tablebuild.html",
+            "title": "Tables"
+          },
+          {
+            "url": "week04/Form-start/index.html",
+            "title": "Forms"
+          },
+          {
+            "url": "https://codepen.io/Garrett-Haymond/pen/pomLQXO",
+            "title": "Pseudo-Element"
+          }
+        ]
+      },
+      {
+        "week": "Week 5",
+        "links": [
+          {
+            "url": "week05/new-ward-members.json",
+            "title": "JSON File"
+          },
+          {
+            "url": "week05/prophets.html",
+            "title": "LDS Prophets"
+          },
+          {
+            "url": "week05/weather.html",
+            "title": "Weather"
+          }
+        ]
+      }
+    ]
+  }
