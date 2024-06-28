@@ -14,7 +14,11 @@
     margin-left: 20px;
 }
 
-.card h2 {
+h2 {
+    padding-left: 1rem;
+}
+
+.card h2:first-child{
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 10px;
@@ -110,7 +114,7 @@ nav a {
 }
 
 nav li:hover {
-    font-size: larger;
+    background-color: azure;
 }
 
 main {
@@ -154,12 +158,35 @@ picture img {
     white-space: nowrap;
 }
 
+.horizontal-links {
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0;
+    margin-left: 3rem;
+    padding-bottom: 1rem;
+}
+  
+  .horizontal-links .link-item {
+    margin-right: 15px;
+}
+  
+  .horizontal-links .link-item a {
+    text-decoration: none;
+    color: #000000;
+}
+  
+  .horizontal-links .link-item a:hover {
+    text-decoration: underline;
+    color: rgb(255, 0, 0);
+}
+
 li a {
     color: black;
 }
 
-li a:hover {
-    font-size: larger;
+nav a:hover {
+    color: black;
 }
 
 iframe {
