@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Garrett Haymond - WDD 230 - Web Frontend Development</title>
+
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/larger.css">
+
+    <link rel="icon" href="images/favicon.ico">
+
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="https://example.com/your-image.jpg">
+    <meta property="og:url" content="https://gshaymond.github.io/wdd230/">
+
+    <meta name="author" content="Garrett Haymond" />
+    <meta name="description" content="Garrett Haymond, WDD 230 - Web Frontend Development, course assignment portal." />
+
+</head>
+
+<body>
+    <header>
+        <img src="images/Me.jpg" alt="Garrett Haymond" width="150" height="150">
+        <span>Garrett Haymond</span>
+    </header>
+    <button id="menu"></button>
+    <nav class="navigation">
+        <ul>
+            <li id="hmpg"><a href="index.html">Home</a></li>
+            <li id="chmb"><a href="chamber/index.html">Chamber</a></li>
+            <li id="stpn"><a href="week01/chamber-site-plan.html">Site Plan</a></li>
+            <li id="form"><a href="form.html">Form</a></li>
+        </ul>
+    </nav>
+    <main>
+        <div id="companyList" class="view-toggle">
+            <button id="grid-view">Grid View</button>
+            <button id="list-view">List View</button>
+        </div>
+        <div id="members-container" class="grid-view"></div>
+    </main>
+
+    <footer>
+        <p>&copy <span>getDates</span>, Garrett Haymond, United States of America</p>
+        <p id="lastModified"></p>
+    </footer>
+    <script src="scripts/getDates.js"></script>
+    <script src="scripts/menu.js"></script>
+    <script src="scripts/members.js"></script>
+</body>
+
+</html>

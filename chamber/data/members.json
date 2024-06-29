@@ -1,0 +1,65 @@
+[
+    {
+        "name": "Company A",
+        "address": "Address 1",
+        "phone": "123-456-7890",
+        "website": "http://www.companya.com",
+        "image": "companya.png",
+        "membership_level": "Gold",
+        "description": "A leading company in industry A."
+    },
+    {
+        "name": "Company B",
+        "address": "Address 2",
+        "phone": "234-567-8901",
+        "website": "http://www.companyb.com",
+        "image": "companyb.png",
+        "membership_level": "Bronze",
+        "description": "A leading company in industry B."
+    },
+    {
+        "name": "Company C",
+        "address": "Address 3",
+        "phone": "345-678-9012",
+        "website": "http://www.companyc.com",
+        "image": "companyc.png",
+        "membership_level": "Gold",
+        "description": "A leading company in industry C."
+    },
+    {
+        "name": "Company D",
+        "address": "Address 4",
+        "phone": "456-789-0123",
+        "website": "http://www.companyd.com",
+        "image": "companyd.png",
+        "membership_level": "Gold",
+        "description": "A leading company in industry D."
+    },
+    {
+        "name": "Company E",
+        "address": "Address 5",
+        "phone": "567-890-1234",
+        "website": "http://www.companye.com",
+        "image": "companye.png",
+        "membership_level": "Silver",
+        "description": "A leading company in industry E."
+    },
+    {
+        "name": "Company F",
+        "address": "Address 6",
+        "phone": "678-901-2345",
+        "website": "http://www.companyf.com",
+        "image": "companyf.png",
+        "membership_level": "Gold",
+        "description": "A leading company in industry F."
+    },
+    {
+        "name": "Company G",
+        "address": "Address 7",
+        "phone": "789-012-3456",
+        "website": "http://www.companyg.com",
+        "image": "companyg.png",
+        "membership_level": "Silver",
+        "description": "A prominent company in industry G."
+    }
+]

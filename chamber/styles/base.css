@@ -208,3 +208,43 @@ figcaption {
         transition: none;
     }
 }
+
+.grid-view .member-card {
+    display: inline-block;
+    width: 30%;
+    margin: 1%;
+    border: 1px solid #ccc;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.list-view .member-card {
+    display: block;
+    width: 100%;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.member-card img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+}
+
+.view-toggle {
+    margin-bottom: 20px;
+    grid-column: 1;
+}
+
+#companyList {
+    position: absolute;
+    padding-left: 90%;
+}
+
+#grid-view, #list-view {
+    width: 90px;
+    height: 30px;
+}
+
