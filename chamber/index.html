@@ -6,7 +6,6 @@
     <title>Rexburg Chamber of Commerce</title>
     <link rel="stylesheet" href="styles/base.css">
     <link rel="stylesheet" href="styles/larger.css">
-    <link rel="stylesheet" href="scripts/">
 
     <link rel="icon" href="images/favicon.ico"
 
@@ -22,8 +21,8 @@
     <nav>
         <ul><a href="/index.html">Home</a></ul>
         <ul><a href="discover.html">Discover</a></ul>
-        <ul><a href="">Directory</a></ul>
-        <ul><a href="">Join</a></ul>
+        <ul><a href="directory.html">Directory</a></ul>
+        <ul><a href="join.html">Join</a></ul>
     </nav>
     <main>
         <img id="hero" src="images/idaho_chamber.jpeg" alt="Idaho Chamber Site">
@@ -41,19 +40,29 @@
         </section>
         <section class="card" id="weather">
             <h2>Weather</h2>
-            <p>It's getting cold outside</p>
+            <p>Rexburg Idaho: <span id="current-temp"></span></p>
+            <figure>
+                <img id="weather-icon" src="" alt="">
+                <figcaption></figcaption>
+            </figure>
         </section>
         <section class="card" id="spotlight">
             <h2>Spotlights</h2>
-            <li>It's going to be fun</li>
-            <li></li>
-            <li></li>
+            
         </section>
+        <div id="meet-greet-banner">
+            <button onclick="closeBanner()">❌</button>
+            <p>Join us for the Chamber of Commerce Meet and Greet on Wednesday at 7:00 p.m.</p>
+            
+        </div>
     </main>
     <footer>
         <p>&copy <span>getDates</span>, Garrett Haymond, United States of America</p>
         <p id="lastModified"></p>
     </footer>
     <script src="scripts/getDates.js"></script>
+    <script src="scripts/banner.js"></script>
+    <script src="scripts/weather.js"></script>
+    <script src="scripts/members.js"></script>
 </body>
 </html>
