@@ -107,9 +107,30 @@ input:required:valid {
     max-width: 99%;
 }
 
+#events li {
+    margin-left: 20px
+}
+
 #spotlight {
     grid-row: 3;
     height: 350px;
+}
+
+.spotlight-member {
+    margin-left: 20px;
+}
+
+.spotlight-member h4 {
+    margin-top: -5px;
+}
+
+#weather p, img, h3 {
+    margin-left: 10%;
+}
+
+#weather-icon {
+    max-height: 50px;
+    max-width: 50px;
 }
 
 #p1 {
@@ -131,6 +152,7 @@ input:required:valid {
     border-radius: 10px;
     box-shadow: 3px 3px rgb(150, 183, 255);
     max-height: 150px;
+    margin: 20px;
 }
 
 #meet-greet-banner p {

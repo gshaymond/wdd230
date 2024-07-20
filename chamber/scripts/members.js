@@ -46,35 +46,47 @@ document.addEventListener('DOMContentLoaded', function() {
     }
 });
 
-const getSpotlightMembers = () => {
-    fetch('/data/members.json')
-        .then(response => response.json())
-        .then(data => {
-            const qualifiedMembers = data.filter(member => member.membership_level === 'Silver' || member.membership_level === 'Gold');
-            displaySpotlight(qualifiedMembers);
-        })
-        .catch(error => console.error('Error fetching spotlight members:', error));
-};
+document.addEventListener('DOMContentLoaded', function() {
+    const getSpotlightMembers = () => {
+        fetch('data/members.json')
+            .then(response => response.json())
+            .then(data => {
+                // Filter for members with 'Silver' or 'Gold' membership levels
+                const qualifiedMembers = data.filter(member => member.membership_level === 'Silver' || member.membership_level === 'Gold');
+                displaySpotlight(qualifiedMembers);
+            })
+    };
 
-const displaySpotlight = (members) => {
-    const spotlightContainer = document.getElementById('spotlight');
-    spotlightContainer.innerHTML = '';
-    const randomMembers = shuffleArray(members).slice(0, 3);
-    randomMembers.forEach(member => {
-        spotlightContainer.innerHTML += `
-            <div class="spotlight-member">
-                <h3>${member.name}</h3>
-            </div>
-        `;
-    });
-};
+    const displaySpotlight = (members) => {
+        const spotlightContainer = document.getElementById('spotlight');
+        spotlightContainer.innerHTML = ''; // Clear existing content
 
-const shuffleArray = (array) => {
-    for (let i = array.length - 1; i > 0; i--) {
-        const j = Math.floor(Math.random() * (i + 1));
-        [array[i], array[j]] = [array[j], array[i]];
-    }
-    return array;
-};
+        // Shuffle the array to randomize the members
+        const shuffledMembers = shuffleArray(members);
 
-getSpotlightMembers();
+        // Select the first three members from the shuffled array
+        const selectedMembers = shuffledMembers.slice(0, 3);
+
+        spotlightContainer.innerHTML += `<h2>Spotlights</h2>`
+
+        // Insert the selected members into the HTML
+        selectedMembers.forEach(member => {
+            spotlightContainer.innerHTML += `
+                <div class="spotlight-member">
+                    <h2>${member.name}</h2>
+                    <h4>${member.membership_level} Member</h4>
+                </div>
+            `;
+        });
+    };
+
+    const shuffleArray = (array) => {
+        for (let i = array.length - 1; i > 0; i--) {
+            const j = Math.floor(Math.random() * (i + 1));
+            [array[i], array[j]] = [array[j], array[i]];
+        }
+        return array;
+    };
+
+    getSpotlightMembers();
+});
